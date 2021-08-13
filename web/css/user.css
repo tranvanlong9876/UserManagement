@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 9, 2021, 7:47:22 AM
+    Author     : Admin
+*/
+
+.title-profile {
+    font-weight: bold;
+    min-width: 80px;
+}
+
+h1 {
+    text-align: center;
+}
+
+table.user-detail-table {
+    margin-left: 390px;
+    width: auto;
+}
+
+.user-detail-table thead tr th, .user-detail-table tbody tr td{
+    text-align: center;
+}
+
+
+.user-detail-table tbody {
+    margin-bottom: 20px;
+}
+tr {
+    line-height: 30px;
+}
+
+table.welcome-user {
+    margin-left: 280px;
+}
+
+.popup-login{
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1040;
+}
+
+.popup-content-login{
+    height: 300px;
+    width: 450px;
+    background: #fff;
+    margin-top: 10px;
+    border-radius: 10px;
+    position: fixed;
+}
+
+.form-control-login{
+    border: 1px solid #e3e3e3;
+    border-radius: 4px;
+    color: #565656;
+    padding: 8px 12px;
+    height: 35px;
+    margin-left: 20px;
+}
+
+.close-login-popup {
+    right: 0.5%;
+    top: 1%;
+    position: absolute;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#username-delete {
+    color: red;
+}
+
+table.table-delete tbody tr {
+    line-height: 10px;
+}
